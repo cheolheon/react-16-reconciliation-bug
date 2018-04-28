@@ -7,7 +7,7 @@ const ReactApp =  (
   <App />
 )
 
-ReactDOM.hydrate(
+ReactDOM.render(
   ReactApp,
   document.getElementById('app'),
 )
