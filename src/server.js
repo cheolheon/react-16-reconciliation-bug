@@ -8,7 +8,6 @@ import App from './components'
 
 const app = express()
 
-console.log(__dirname, process.cwd())
 app.use(express.static(__dirname))
 
 app.get('*', (req, res) => {
