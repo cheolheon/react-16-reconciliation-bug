@@ -48,7 +48,8 @@ const server = {
   target: 'node',
   node: {
     __dirname: false,
-  }
+  },
+  externals: [require('webpack-node-externals')()]
 }
 
 module.exports = [client, server]
